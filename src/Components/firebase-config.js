@@ -3,7 +3,6 @@ import { createContext, useContext , useState, useEffect} from "react";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "@firebase/firestore";
 import { getStorage } from "firebase/storage";
-import "firebase/storage";
 import {getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword, onAuthStateChanged} from "firebase/auth";
 
 
